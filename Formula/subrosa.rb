@@ -1,26 +1,26 @@
 class Subrosa < Formula
   desc "Persistent, private memory for Claude Code"
   homepage "https://github.com/ij5a/subrosa"
-  version "0.24.0"
+  version "0.25.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ij5a/subrosa/releases/download/v0.24.0/subrosa-v0.24.0-aarch64-apple-darwin.tar.gz"
-      sha256 "fc044e21a4f293c5594ff6bba3c95367492169dcad1b50623a994d237b41d7c6"
+      url "https://github.com/ij5a/subrosa/releases/download/v0.25.0/subrosa-v0.25.0-aarch64-apple-darwin.tar.gz"
+      sha256 "2cd5d668bf50fd90abf2661d34ec7e70895db556ca234b80ebd7c04cf9fda97f"
     else
-      url "https://github.com/ij5a/subrosa/releases/download/v0.24.0/subrosa-v0.24.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5f76e8da3cfedc481811730919ec737f6ccc5af7519acb5ea91019129001e4fd"
+      url "https://github.com/ij5a/subrosa/releases/download/v0.25.0/subrosa-v0.25.0-x86_64-apple-darwin.tar.gz"
+      sha256 "cbfc3949dc940837d70544f8f326eeb584eb9120d349c5de2a46d324a87ecf26"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/ij5a/subrosa/releases/download/v0.24.0/subrosa-v0.24.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "19d9e38c7601765a69f54ca52078333ec87dc20d4ae66dc9fdc898a7f9c17e55"
+      url "https://github.com/ij5a/subrosa/releases/download/v0.25.0/subrosa-v0.25.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "1bc4d98819da87278f681981cc69dd17b001f366e6418df3c5367e62fbfd3042"
     else
-      url "https://github.com/ij5a/subrosa/releases/download/v0.24.0/subrosa-v0.24.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9af9f5c36a9a36597d457433ae5ad2bf52a0555a97fa5f781fd4e7b670d9d69e"
+      url "https://github.com/ij5a/subrosa/releases/download/v0.25.0/subrosa-v0.25.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a96e5c1a7a8eeef48c94cd4a20cb84be217ec9024c62a170f5c98e4f15429274"
     end
   end
 
